@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:dv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <cn.zht.dividerview.DividerView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        dv:dv_dash_line_height="6dp"
+        dv:dv_dash_line_color="#ff0000"
+        dv:dv_dash_gap="10dp"
+        dv:dv_dash_line_length="15dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="100dp"/>
+
+    <cn.zht.dividerview.DividerView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+
+        dv:dv_dash_gap="10dp"
+        dv:dv_dash_img="@drawable/drawable_dot"
+        dv:dv_dash_img_width="30dp"
+        dv:dv_dash_img_height="30dp"
+        dv:dv_mode="img"/>
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/drawable_dot"
+        android:layout_marginTop="50dp"/>
+</LinearLayout>

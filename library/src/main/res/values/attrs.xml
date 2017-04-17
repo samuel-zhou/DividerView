@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DividerView">
+        <attr name="dv_dash_line_length" format="dimension|reference"/>
+        <attr name="dv_dash_gap" format="dimension|reference"/>
+        <attr name="dv_dash_line_height" format="dimension|reference"/>
+        <attr name="dv_dash_line_color" format="color|reference"/>
+
+        <attr name="dv_dash_img" format="reference"/>
+        <attr name="dv_dash_img_width" format="dimension|reference"/>
+        <attr name="dv_dash_img_height" format="dimension|reference"/>
+
+        <attr name="dv_mode">
+            <flag name="dash" value="0x1"/>
+            <flag name="img" value="0x2"/>
+        </attr>
+    </declare-styleable>
+</resources>
